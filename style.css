@@ -160,9 +160,9 @@ button#s {
 
 div#bt {
     flex-direction: column;
-    padding: 10px 20px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 div#bc {
@@ -170,6 +170,7 @@ div#bc {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 input#search-address {
@@ -199,4 +200,9 @@ div#wg {
     align-items: center;
     height: 100%;
     width: 100%;
+}
+
+.token {
+    white-space: nowrap;
+    padding: 10px;
 }

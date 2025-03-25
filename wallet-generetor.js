@@ -11,3 +11,16 @@ document.getElementById("wallet-button").addEventListener("click", function() {
     .catch(error => document.getElementById("address").innerText = "Erro",
     document.getElementById("key").innerText = "---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----");
 });
+
+/*
+<div id="wg">
+<div id="wg1">
+    <h1>Wallet Generetor:</h1>
+    <button id="wallet-button">Generate Wallet</button>
+</div>
+<div id="wg2">
+    <h1>Information:</h1>
+    <p id="address">Address:</p>
+    <p id="key">key:</p>
+</div>
+*/
